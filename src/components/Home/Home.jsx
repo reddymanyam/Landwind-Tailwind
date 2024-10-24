@@ -11,7 +11,7 @@ const Home = () => {
           <p className="text-lg text-gray-500 mb-8">
             This free and open-source landing page template was built using the utility classes from Tailwind CSS and based on the components from the Flowbite Library and the Blocks System.
           </p>
-          <div className="flex space-x-4">
+          <div className="lg:flex lg:space-x-4">
             <a
               href="#"
               className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-700"

@@ -3,12 +3,12 @@ import feature2 from '../../assets/feature-2.png'
 
 const Analysis2 = () => {
     return (
-        <div className='bg-white px-14 py-10'>
+        <div className='bg-white px-2 py-2 lg:px-14 lg:py-10'>
             <div className='flex justify-between'>
                 <div className='hidden flex-1 lg:block '>
                     <img src={feature2} />
                 </div>
-                <div className='flex-1 pl-12'>
+                <div className='flex-1 px-2 lg:pl-12'>
                     <h1 className='text-3xl font-bold '>We invest in the world's potential</h1>
                     <p className='text-xl pt-4 font-light'>Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
                     <ul className="pt-8 space-y-5 text-md font-semibold border-t my-7 border-gray-200">

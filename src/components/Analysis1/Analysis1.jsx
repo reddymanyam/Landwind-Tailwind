@@ -2,7 +2,7 @@ import React from 'react'
 import feature1 from '../../assets/feature-1.png';
 const Analysis1 = () => {
     return (
-        <div className='bg-white px-14 py-14'>
+        <div className='bg-white px-2 py-2 lg:px-14 lg:py-14'>
             <div className='flex justify-between'>
                 <div className='flex-1'>
                     <h1 className='text-3xl text-gray-950 py-6 font-bold'> Work with tools you already use</h1>
