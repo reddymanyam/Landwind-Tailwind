@@ -51,7 +51,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="lg:w-1/2">
+        <div className="hidden lg:flex h-96">
           <img
             src={hero}
             alt="Digital target"
@@ -59,7 +59,6 @@ const Home = () => {
           />
         </div>
       </div>
-
      
     </section>
   );
