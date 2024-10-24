@@ -4,6 +4,7 @@ import Home from './components/Home/Home'
 import CmpLogos from './components/CmpLogos/CmpLogos'
 import Analysis1 from './components/Analysis1/Analysis1'
 import Analysis2 from './components/Analysis2/Analysis2'
+import Analysis3 from './components/Analysis3/Analysis3'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
      <CmpLogos />
      <Analysis1 />
      <Analysis2 />
+     <Analysis3 />
    </>
   )
 }
