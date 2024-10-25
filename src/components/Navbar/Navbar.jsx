@@ -41,7 +41,7 @@ const Navbar = () => {
           </div>
           <a href="#" className="px-4 py-2 text-white bg-purple-600 rounded hover:bg-purple-700">Download</a>
 
-          <button onClick={handleClick} className="lg:hidden">
+          <button onClick={()=> handleClick} className="lg:hidden">
             <svg className="w-6 h-6 text-gray-800 cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 17 14">
               <path d="M16 2H1a1 1 0 0 1 0-2h15a1 1 0 1 1 0 2Zm0 6H1a1 1 0 0 1 0-2h15a1 1 0 1 1 0 2Zm0 6H1a1 1 0 0 1 0-2h15a1 1 0 1 1 0 2Z" />
             </svg>
