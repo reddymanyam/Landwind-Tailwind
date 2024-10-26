@@ -3,7 +3,7 @@ import hero from "../../assets/hero.png";
 const Home = () => {
   return (
     <section className="bg-white py-3">
-      <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between">
+      <div className="container mx-auto w-[92%] flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900 mb-6">
             Building digital <br /> products & brands.
