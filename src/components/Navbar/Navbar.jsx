@@ -12,7 +12,6 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 bg-white border-gray-200 px-4 sm:px-8 py-3.5">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        
         <a href="#" className="flex items-center">
           <img src={logo} className="h-8 mr-3" alt="Logo" />
           <span className="self-center text-xl font-semibold whitespace-nowrap">Landwind</span>
