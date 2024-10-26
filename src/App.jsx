@@ -9,6 +9,7 @@ import Quoate from './components/Quoate/Quoate'
 import Quoate1 from './components/Quoate1/Quoate1'
 import PricingCard from './components/PricingCard/PricingCard'
 import Quoate3 from './components/Quoate3/Quoate3'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
      <Quoate1 />
      <PricingCard />
      <Quoate3 />
+     <Footer />
    </>
   )
 }
