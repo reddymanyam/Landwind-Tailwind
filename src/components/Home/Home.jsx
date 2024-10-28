@@ -8,7 +8,7 @@ const Home = () => {
           <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900 mb-6">
             Building digital <br /> products & brands.
           </h1>
-          <p className="text-lg text-gray-500 mb-8">
+          <p className="text-md md:text-lg text-gray-500 mb-8">
             This free and open-source landing page template was built using the utility classes from Tailwind CSS and based on the components from the Flowbite Library and the Blocks System.
           </p>
           <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
