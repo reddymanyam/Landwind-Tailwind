@@ -9,6 +9,8 @@ const Navbar = () => {
     console.log("icon clicked");
   };
 
+  const menulist = [ "Home", "Company", "Marketplace", "Features", "Team", "Contact"];
+  
   return (
     <nav className="sticky top-0 bg-white border-gray-200 px-4 sm:px-8 py-3.5">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
@@ -19,13 +21,9 @@ const Navbar = () => {
         <div
           className={`${isopenmenu ? "flex" : "hidden"
             } absolute flex-col w-full top-16 left-0 lg:static lg:flex lg:flex-row lg:w-auto lg:space-x-8 text-md font-medium bg-white lg:bg-transparent`}
-        >
-          <a href="#" className="mx-4 px-2 py-2 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Home</a>
-          <a href="#" className="mx-4 px-2 py-2 text-gray-700 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Company</a>
-          <a href="#" className="mx-4 px-2 py-2 text-gray-700 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Marketplace</a>
-          <a href="#" className="mx-4 px-2 py-2 text-gray-700 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Features</a>
-          <a href="#" className="mx-4 px-2 py-2 text-gray-700 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Team</a>
-          <a href="#" className="mx-4 px-2 py-2 text-gray-700 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Contact</a>
+        >{ menulist.map((d,i)=>(
+          <a href="#" className="mx-4 px-2 py-2 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">{d}</a>
+        ))}
         </div>
 
         <div className="flex items-center space-x-4">
