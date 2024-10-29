@@ -16,7 +16,6 @@ const Navbar = () => {
           <img src={logo} className="h-8 mr-3" alt="Logo" />
           <span className="self-center text-xl font-semibold whitespace-nowrap">Landwind</span>
         </a>
-
         <div
           className={`${isopenmenu ? "flex" : "hidden"
             } absolute flex-col w-full top-16 left-0 lg:static lg:flex lg:flex-row lg:w-auto lg:space-x-8 text-md font-medium bg-white lg:bg-transparent`}
