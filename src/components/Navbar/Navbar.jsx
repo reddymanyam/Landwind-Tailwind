@@ -17,14 +17,16 @@ const Navbar = () => {
           <span className="self-center text-xl font-semibold whitespace-nowrap">Landwind</span>
         </a>
 
-        <div className={`${isopenmenu ? "flex" : "hidden"
-          } absolute flex-col w-full top-16 left-0 lg:static lg:flex lg:flex-row lg:w-auto lg:space-x-8 text-md font-medium bg-white lg:bg-transparent`}>
-          <a href="#" className="text-purple-700 hover:text-purple-600 px-4 py-2 lg:px-0">Home</a>
-          <a href="#" className="text-gray-700 hover:text-purple-600 px-4 py-2 lg:px-0">Company</a>
-          <a href="#" className="text-gray-700 hover:text-purple-600 px-4 py-2 lg:px-0">Marketplace</a>
-          <a href="#" className="text-gray-700 hover:text-purple-600 px-4 py-2 lg:px-0">Features</a>
-          <a href="#" className="text-gray-700 hover:text-purple-600 px-4 py-2 lg:px-0">Team</a>
-          <a href="#" className="text-gray-700 hover:text-purple-600 px-4 py-2 lg:px-0">Contact</a>
+        <div
+          className={`${isopenmenu ? "flex" : "hidden"
+            } absolute flex-col w-full top-16 left-0 lg:static lg:flex lg:flex-row lg:w-auto lg:space-x-8 text-md font-medium bg-white lg:bg-transparent`}
+        >
+          <a href="#" className="mx-4 px-2 py-2 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Home</a>
+          <a href="#" className="mx-4 px-2 py-2 text-gray-700 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Company</a>
+          <a href="#" className="mx-4 px-2 py-2 text-gray-700 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Marketplace</a>
+          <a href="#" className="mx-4 px-2 py-2 text-gray-700 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Features</a>
+          <a href="#" className="mx-4 px-2 py-2 text-gray-700 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Team</a>
+          <a href="#" className="mx-4 px-2 py-2 text-gray-700 hover:bg-purple-600 hover:text-white rounded-md lg:hover:bg-transparent lg:hover:text-purple-600 lg:px-0">Contact</a>
         </div>
 
         <div className="flex items-center space-x-4">
