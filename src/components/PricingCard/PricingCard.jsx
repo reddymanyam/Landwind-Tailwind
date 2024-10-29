@@ -2,9 +2,9 @@ import React from 'react'
 
 const PricingCard = () => {
     return (
-        <div className='grid grid-rows-1 grid-cols-1 sm:mb-10 md:grid-rows-1 lg:grid-cols-3 md:mx-20 space-x-10 '>
+        <div className='grid grid-rows-1 grid-cols-1 items-center justify-center px-6  md:grid-rows-1 md:mx-20 md:space-x-8 lg:grid-cols-3 '>
 
-            <div className='border-2 border-gray-100 flex flex-col p-10 space-y-4 text-center sm:mb-8'>
+            <div className='border-2 border-gray-100 flex flex-col p-10 space-y-4 text-center my-8'>
                 
                 <h1 className='text-2xl font-semibold'>Starter</h1>
                 <p className='text-lg font-light'>Best option for personal use & for your next project.</p>
