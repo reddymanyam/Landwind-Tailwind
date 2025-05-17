@@ -10,6 +10,7 @@ import Quoate1 from './components/Quoate1/Quoate1'
 import PricingCard from './components/PricingCard/PricingCard'
 import Quoate3 from './components/Quoate3/Quoate3'
 import Footer from './components/Footer/Footer'
+import Accrodian from './components/Accrodian/Accrodian'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
      <Quoate />
      <Quoate1 />
      <PricingCard />
+     <Accrodian />
      <Quoate3 />
      <Footer />
    </>

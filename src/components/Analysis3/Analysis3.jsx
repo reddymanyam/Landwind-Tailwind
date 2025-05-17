@@ -2,20 +2,20 @@ import React from 'react'
 
 const Analysis3 = () => {
     return (
-        <div className='px-2 lg:px-14 lg:my-20'>
+        <div className='px-4 my-10 md:px-14'>
             <div className='lg:flex lg:justify-between'>
                 <div className='flex-1'>
                     <p className='my-3 text-purple-600 font-bold'>Trusted Worldwide</p>
                     <h1 className='text-3xl font-bold mt-3'>Trusted by over 600 million users and 10,000 teams</h1>
-                    <p className='text-xl font-light  my-3'>Our rigorous security and compliance standards are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
+                    <p className='sm:text-md md:text-xl font-light  my-3'>Our rigorous security and compliance standards are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
                     <div className='flex flex-col space-y-3 border-t-2 py-3 mt-3'>
                         <a href="#" className=' text-purple-600 font-bold flex space-x-1'>Explore Legality Guide<svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
                         <a href="#" className=' text-purple-600 font-bold flex space-x-1'>Visit the Trust Center<svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
                     </div>
                 </div>
                 <div className="flex-1">
-                    <div className='grid grid-rows-4 grid-cols-1 lg:grid-rows-2 lg:grid-cols-2 lg:gap-x-6 lg:gap-y-6 lg:px-8 lg:mx-4'>
-                        <div>
+                    <div className='grid grid-rows-4 grid-cols-1 space-y-5  md:grid-rows-2 md:grid-cols-2 md:gap-x-6 md:gap-y-6 md:px-2'>
+                        <div className='mt-4'>
                             <svg class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd"></path></svg>
                             <h1 className='text-2xl font-bold'>99.99% Uptime</h1>
                             <p className='font-light py-1'>For Landwind, with zero maintance downtime</p>

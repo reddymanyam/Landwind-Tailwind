@@ -48,7 +48,7 @@ const Footer = () => {
             <div class="text-center my-5 pb-6">
                 <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
                     <img src="https://themewagon.github.io/landwind/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-                    Landwind    
+                    Landwind
                 </a>
                 <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2021-2022 Landwind™. All Rights Reserved. Built with <a href="https://flowbite.com" class="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>. Distributed by <a href="https://themewagon.com/" class="text-purple-600 hover:underline dark:text-purple-500">ThemeWagon</a>
                 </span>
